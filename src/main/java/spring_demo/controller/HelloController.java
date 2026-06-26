@@ -12,4 +12,9 @@ public class HelloController {
     public String hello() {
         return "Hello Team Lead!";
     }
+
+    @GetMapping("/bye")
+    public String bye() {
+        return "Bye Team Lead!";
+    }
 }
