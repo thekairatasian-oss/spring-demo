@@ -14,7 +14,7 @@ public class HelloController {
     }
 
     @GetMapping("/gay")
-    public String bye() {
+    public String gay() {
         return "Team Lead is gay!";
     }
 }
