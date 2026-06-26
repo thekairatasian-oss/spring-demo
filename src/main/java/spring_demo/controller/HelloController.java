@@ -13,8 +13,8 @@ public class HelloController {
         return "Hello Team Lead!";
     }
 
-    @GetMapping("/bye")
+    @GetMapping("/gay")
     public String bye() {
-        return "Bye Team Lead!";
+        return "Team Lead is gay!";
     }
 }
